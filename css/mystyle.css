@@ -1,0 +1,87 @@
+.header{
+   width: 100%;
+   font-size: 16px;
+   background-color: #e2cd0e;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+.logo{
+   width: 50%; 
+}
+
+.allitem{ 
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+.item{
+   padding: 3px;
+}
+
+.main{
+   display: flex;
+   align-items: stretch;
+   height: 100vh
+}
+
+.aside1{
+   width: 210px;
+   background-color: palevioletred;
+   /* display: flex; */
+}
+
+.aside2{
+   width: 210px;
+   background-color: blue;
+   /* display: flex; */
+}
+
+.footer{
+   width: 100%;
+   background-color: chartreuse;
+   text-align: center;
+   min-width: 100vh;
+}
+
+.cards{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: stretch;
+}
+
+.card{
+   border: 1px solid black;
+   border-radius: 5%;
+   margin: 5px;
+   padding: 20px 5px 5px 5px;
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cardimg{
+   width: 20%;  
+}
+
+.button_go{
+   background-color: rgb(106, 104, 245);
+	padding: 7px 15px;
+	margin: 0 15px 15px 0;
+	border-radius: 15px; 
+   height: 25px;
+   color: #fff;
+   position: relative;
+   left: 50%; 
+}
+
+.cardimg{
+   border-radius: 50%;
+}
